@@ -1,0 +1,20 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.local-ai.env
+
+# Build and test output
+build/
+dist/
+coverage/
+
+# 选定引擎后，在此补充引擎与微信开发者工具产生的本地文件和构建产物。
